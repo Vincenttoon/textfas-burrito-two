@@ -18,13 +18,13 @@ module.exports = () => {
       path: path.resolve(__dirname, "dist"),
     },
     plugins: [
+      new InjectManifest({
+        swSrc: "./src-sw.js",
+        swDest: "src-sw.js",
+      }),
       new HtmlWebpackPlugin({
         template: "./index.html",
         title: "JATE",
-      }),
-      new InjectManifest({
-        swSrc: "./src/src-sw.js",
-        swDest: "src-sw.js",
       }),
       new WebpackPwaManifest({
         name: "Just Another Text Editor",
