@@ -13,19 +13,23 @@ module.exports = () => {
       main: "./src/js/index.js",
       install: "./src/js/install.js",
     },
+    // creates js bundle to home all of our store all of our js functions into one script
     output: {
       filename: "[name].bundle.js",
       path: path.resolve(__dirname, "dist"),
     },
+    // Injects service worker into application for offline app usage
     plugins: [
       new InjectManifest({
         swSrc: "./src-sw.js",
         swDest: "src-sw.js",
       }),
+      // targets what template to create with Webpack and titles it
       new HtmlWebpackPlugin({
         template: "./index.html",
         title: "JATE",
       }),
+      // parameters for webpack manifest to create local application
       new WebpackPwaManifest({
         name: "Just Another Text Editor",
         short_name: "JATE",
@@ -46,14 +50,17 @@ module.exports = () => {
 
     module: {
       rules: [
+        // loads css script into application
         {
           test: /\.css$/i,
           use: ["style-loader", "css-loader"],
         },
+        // regex to accept different image types
         {
           test: /\.(png|svg|jpg|jpeg|gif)$/i,
           type: "asset/icons",
         },
+        // takes new JS and node modules and converts them for loading on older browsers without modern js functionality
         {
           test: /\.m?js$/,
           exclude: /node_modules/,
