@@ -1,27 +1,65 @@
-# textfas-burrito-two
+# Just Another Text Editor
 
-- GIVEN a text editor web application
-- XXX WHEN I open my application in my editor
-- XXX THEN I should see a client-server folder structure
-- XXX WHEN I run `npm start` from the root directory
-- XXX THEN I find that my application should start up the back end and serve the client
-- XXX WHEN I run the text editor application from my terminal
-- XXX THEN I find that my JavaScript files have been bundled using webpack
-- XXX WHEN I run my webpack plugins
-- XXX THEN I find that I have a generated HTML file, service worker, and a manifest file
-- ??? WHEN I use next-gen JavaScript in my application
-- ??? THEN I find that the text editor still functions in the browser without errors
-- XXX WHEN I open the text editor
-- XXX THEN I find that IndexedDB has immediately created a database storage
-- XXX WHEN I enter content and subsequently click off of the DOM window
-- XXX THEN I find that the content in the text editor has been saved with IndexedDB
-- XXX WHEN I reopen the text editor after closing it
-- XXX THEN I find that the content in the text editor has been retrieved from our IndexedDB database
-- XXX WHEN I click on the Install button
-- XXX THEN I download my web application as an icon on my desktop
-- XXX WHEN I load my web application
-- XXX THEN I should have a registered service worker using Workbox
-- XXX WHEN I register a service worker
-- XXX THEN I should have my static assets precached upon loading along with subsequent pages and static assets
-- WHEN I deploy to Heroku
-- THEN I should have proper build scripts for a webpack application
+## License
+### [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+### [MIT](https://opensource.org/licenses/MIT)
+
+## Description
+
+Javascript text editor that saves and stores changes for later reference. This application works offline through a service worker and is installable to your local machine
+
+By: [Vincent Toon](https://github.com/Vincenttoon)
+
+## Table of Contents
+
+* [Installation](#installation)
+
+* [Tests](#tests)
+
+* [Usage](#usage)  
+
+* [Technologies Learned](#technologies-learned)
+
+* [Contributors](#contributors)
+
+* [Questions?](#questions)
+
+## Installation
+
+* Head to the repository to download or view this code: [Just Another Text Editor](https://github.com/Vincenttoon/textfas-burrito-two)
+
+For developer use:
+- Visit this github repo
+- Download code to local machine
+- Run npm start 
+- Go to the local host browser. 
+
+For local installation: 
+- Visit the deployed application 
+- Press install.
+
+## Tests
+
+Video Demonstration:
+
+## Usage
+
+- Visit application deployment. Enjoy. 
+- Click install button if you would like the application on your local machine, and download.
+
+## Technologies Learned
+
+- [Workbox Strategies](https://www.harrytheo.com/blog/2021/03/workbox-strategies-with-examples-and-use-cases/)
+
+- [window.deferredPrompt](https://web.dev/codelab-make-installable/)
+
+- [babel-loader](https://isamatov.com/webpack-explained-simply-plugins-loaders-and-babel/#:~:text=Babel%20loader%20is%20used%20to,and%20even%20JSX%20(React).)
+
+## Contributors
+
+* n/a
+
+## Questions?
+
+Questions, comments, or concerns? Please Email me at:
+* vincenttoon22@gmail.com
