@@ -31,6 +31,7 @@ module.exports = () => {
       }),
       // parameters for webpack manifest to create local application
       new WebpackPwaManifest({
+        fingerprints: false,
         name: "Just Another Text Editor",
         short_name: "JATE",
         description: "Edit texts with this editor",
