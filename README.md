@@ -42,7 +42,7 @@ For local installation:
 
 ## Live Deployment Link
 
-Video Demonstration:
+[Just Another Text Editor](https://safe-atoll-66410.herokuapp.com/)
 
 ## Usage
 
