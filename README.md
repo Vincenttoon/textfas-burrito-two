@@ -16,7 +16,7 @@ By: [Vincent Toon](https://github.com/Vincenttoon)
 
 * [Installation](#installation)
 
-* [Tests](#tests)
+* [Live Deployment Link](#live-deployment-link)
 
 * [Usage](#usage)  
 
@@ -40,7 +40,7 @@ For local installation:
 - Visit the deployed application 
 - Press install.
 
-## Tests
+## Live Deployment Link
 
 Video Demonstration:
 
@@ -50,6 +50,8 @@ Video Demonstration:
 - Click install button if you would like the application on your local machine, and download.
 
 ## Technologies Learned
+
+- [Webpack Fingerprints](https://www.npmjs.com/package/webpack-pwa-manifest/v/3.1.1)
 
 - [Workbox Strategies](https://www.harrytheo.com/blog/2021/03/workbox-strategies-with-examples-and-use-cases/)
 
